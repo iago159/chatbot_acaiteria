@@ -1,0 +1,47 @@
+{"intents": [
+        {"tag": "name",
+        "patterns": ["Como você se chama?", "Qual o seu nome?", "Quem é você?", "Como posso te chamar?", "Pode me dizer seu nome?"], 
+        "responses": ["Olá, meu nome é Bia e eu sou a assistente da açaiteria. Seja bem vindo.", "Bom dia, eu me chamo Bia, sou a chatbot da açaiteria e espero poder te ajudar."]
+        },
+        {"tag": "greeting",
+        "patterns": ["Oi", "Como você está?", "Tudo bem?", "Tem alguém aí?", "Olá", "Bom dia"], 
+        "responses": ["Olá, obrigado pela visita. Como posso ajudar?", "Bom te ver de novo.", "Olá, como eu posso ajudar?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Tchau", "Até mais tarde", "Até outro dia", "Vejo você depois"],
+         "responses": ["Vejo você mais tarde, obrigado pela visita.", "Tenha um ótimo dia!", "Até! Volte logo."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Obrigado", "Muito obrigado", "Grato"],
+         "responses": ["Feliz em ajudar!", "Sem problemas.", "Por nada."]
+        },
+        {"tag": "items",
+         "patterns": ["Quais itens vocês fornecem?", "Quais os tipos de itens estão disponíveis?", "O que vocês vendem?", "O que é servido?", "Quais sabores vocês tem?", "Tem açaí de que?"],
+         "responses": ["Nossos sabores de açaí são: Mousse de chocolate, Limão, Tradicional e Baunilha."]
+        },
+        {"tag": "hours",
+         "patterns": ["Que horas vocês abrem?", "Qual é o seu horário?", "Quando abre?", "Qual o horário de funcionamento?" ],
+         "responses": ["Nós abrimos todos os dias, entre 7:00 e 19:00.", "Nosso horário de funcionamento é entre 7:00 e 19:00 todos os dias."]
+        },
+        {"tag": "payments",
+         "patterns": ["Vocês aceitam cartão de crédito", "Aceitam Mastercard?", "Vocês aceitam apenas dinheiro?", "Quais métodos de pagamento são aceitos?", "Como realizo o pagamento?", "Como faço para pagar?", "Aceitam PIX?", "Posso pagar com PIX?"],
+         "responses": ["Nós aceitamos a maioria das bandeiras, dinheiro e PIX.", "Nós aceitamos a maioria dos cartões de crédito. Temos desconto para pagamentos via PIX."]
+        },
+        {"tag": "delivery",
+         "patterns": ["Quanto tempo demora a entrega?", "Quando meu pedido chega?", "O delivery demora quanto tempo?", "Quanto tempo demora?"],
+         "responses": ["Seu pedido chegará no máximo em 60 minutos.", "O delivery demora de 30 a 60 minutos."]
+        },
+        {"tag": "accompaniments",
+         "patterns": ["Quais os acompanhamentos disponíveis?", "tem acompanhamentos?", "O que posso adicionar no açaí?", "Tem adicionais disponíveis?", "Quais os acompanhamentos?"],
+         "responses": ["Nós possuimos 3 tipos de acompanhamentos: frutas, doces e grãos.", "Possuímos 3 acompanhamentos: frutas, doces e grãos, todos excelentes."]
+        },
+        {"tag": "price",
+         "patterns": ["Quanto custa o açaí?", "Quais os valores do açaí?", "Qual o preço?", "Quanto custa?", "Quais tamanhos de açaí vocês tem e qual o preço?", "Quais tamanhos?", "Qual o valor do açaí grande?","Qual o valor do açaí médio?", "Qual o valor do açaí pequeno?", "Qual é o mais barato?"],
+         "responses": ["Nós possuimos 3 tamanhos de açaí: Extra Grande (R$ 19,99), Grande (R$ 13,99) e Médio (R$ 11,99)."]
+        },
+        {"tag": "funny",
+         "patterns": ["Seja engraçada.", "Me conte uma piada.", "Você sabe alguma piada?", "Me diga algo engraçado."],
+         "responses": ["O que o açaí disse para o outro açaí? ... O último açaí fecha a porta!"]
+        }
+   ]
+}
